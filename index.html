@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Integrare</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <section class="container_cabecalho"> 
+            <img class="container_cabecalho__imagem" src="./assets/sonia.svg" alt="Foto da médica Sônia">
+            <div class="container_cabecalho__textos">
+                <h1 class="container_cabecalho__textos--titulo">Olá, Sônia</h1>
+                <p class="container_cabecalho__textos--consultas">Mais 4 consultas hoje</p>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="agenda">
+            <h2 class="agenda__titulo">Hoje</h2>
+
+            <!-- Card consulta remota -->
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/luciana_dias.svg" alt="Foto da Luciana">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Luciana Dias</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/camera.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta remota</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">14:00 - 15:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consultas-card__botoes--video">Ligar por vídeo</a>
+                    <a href="#" class="consultas-card__botoes--audio">Ligar por áudio</a>
+                </div>
+            </div>
+
+            <!-- Card consulta presencial -->
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/larissa_santana.svg" alt="Foto da Larissa">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Larissa Santana</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/local.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta no local</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">16:00 - 17:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consulta-card__botoes--endereco">Ver endereço</a>
+                </div>
+            </div>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/marcos_correa.svg" alt="Foto do Marcos">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Marcos Correia</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/camera.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta remota</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">17:20 - 18:00 (40 minutos)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consultas-card__botoes--video">Ligar por vídeo</a>
+                    <a href="#" class="consultas-card__botoes--audio">Ligar por áudio</a>
+                </div>
+            </div>
+            <h2 class="agenda__titulo">Amanha</h2>
+            
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/clara_lemos.svg" alt="Foto da Clara">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Clara Lemos</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/local.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta no local</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">18:00 - 19:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consulta-card__botoes--endereco">Ver endereço</a>
+                </div>
+            </div>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/luciana_dias.svg" alt="Foto da Luciana">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Luciana Dias</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/camera.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta remota</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">14:00 - 15:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consultas-card__botoes--video">Ligar por vídeo</a>
+                    <a href="#" class="consultas-card__botoes--audio">Ligar por áudio</a>
+                </div>
+            </div>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/marcos_correa.svg" alt="Foto do Marcos">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Marcos Correia</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/camera.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta remota</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">17:20 - 18:00 (40 minutos)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consultas-card__botoes--video">Ligar por vídeo</a>
+                    <a href="#" class="consultas-card__botoes--audio">Ligar por áudio</a>
+                </div>
+            </div>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/larissa_santana.svg" alt="Foto da Larissa">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Larissa Santana</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/local.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta no local</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">16:00 - 17:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consulta-card__botoes--endereco">Ver endereço</a>
+                </div>
+            </div>
+            <h2 class="agenda__titulo">Quarta-feira</h2>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/clara_lemos.svg" alt="Foto da Clara">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Clara Lemos</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/local.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta no local</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">18:00 - 19:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consulta-card__botoes--endereco">Ver endereço</a>
+                </div>
+            </div>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/luciana_dias.svg" alt="Foto da Luciana">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Luciana Dias</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/camera.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta remota</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">14:00 - 15:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consultas-card__botoes--video">Ligar por vídeo</a>
+                    <a href="#" class="consultas-card__botoes--audio">Ligar por áudio</a>
+                </div>
+            </div>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/marcos_correa.svg" alt="Foto do Marcos">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Marcos Correia</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/camera.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta remota</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">17:20 - 18:00 (40 minutos)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consultas-card__botoes--video">Ligar por vídeo</a>
+                    <a href="#" class="consultas-card__botoes--audio">Ligar por áudio</a>
+                </div>
+            </div>
+
+            <div class="consultas-card">
+                <div class="consultas-card__header">
+                    <img class="consultas-card__foto" src="./assets/larissa_santana.svg" alt="Foto da Larissa">
+                    <div class="consultas-card__info">
+                        <h2 class="consultas-card__nome">Larissa Santana</h2>
+                        <div class="consultas-card__tipo">
+                            <img src="assets/local.svg" alt="ícone de uma camera">
+                            <span class="consultas-card__texto">Consulta no local</span>
+                        </div>
+                    </div>
+                    <div class="consultas-card__chat-container">
+                    <a class="consultas-card__chat-container--botao" href="#">  
+                        <img class="consultas-card__chat-container--chat" src="./assets/chat.svg" alt="Ícone de chat">
+                    </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="consultas-card__horario">   
+                    <p class="consultas-card__hora">16:00 - 17:00 (1 hora)</p>
+                </div>
+                <div class="consultas-card__botoes">
+                    <a href="#" class="consulta-card__botoes--endereco">Ver endereço</a>
+                </div>
+            </div>
+            
+        </section>
+    </main>
+</body>
+</html>

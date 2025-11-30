@@ -1,0 +1,98 @@
+.agenda__titulo{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--preto);
+    padding: 1em 0 1em 1em;
+}
+.consultas-card{
+    background-color: var(--branco);
+    margin: 0 1.7em 1.2em 1.7em;
+    border-radius: 10px;
+}
+.consultas-card__foto{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+.consultas-card__header{
+    display: flex;
+    gap: 1em;
+    padding: 1em 1em 0.7em 1.2em;
+}
+.consultas-card__nome{
+    font-weight: 700;
+    padding-bottom: 0.4em;
+    color: var(--preto);
+}
+.consultas-card__tipo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+.consultas-card__texto{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--cinza-claro);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.consultas-card__chat-container{
+    position: relative;
+    width: 32px;
+    height: 32px;
+    margin-left: 6.8em;
+}
+.consultas-card__chat-container--botao{
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background-color: var(--cinza);
+}
+.consultas-card__chat-container--chat{
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    pointer-events: none;
+}
+.consultas-card__horario{
+    margin: 0.7em 1em;
+}
+.consultas-card__hora{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--preto)
+}
+.consultas-card__botoes{
+    display: flex;
+    gap: 1.2em;
+    padding: 0 1em 1em 1em;
+    justify-content: center;
+    text-align: center;
+}
+.consultas-card__botoes--video{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 1em;
+    border-radius: 10px ;
+}
+.consultas-card__botoes--audio{
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--preto);
+    padding: 1em;
+    border: solid 1px var(--cinza);
+    border-radius: 10px;
+}
+.consulta-card__botoes--endereco{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: 500;
+    background-color: var(--azul);
+    padding: 1em;
+    width: 296px;
+    border-radius: 10px;
+}
