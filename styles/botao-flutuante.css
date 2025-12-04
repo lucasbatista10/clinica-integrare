@@ -1,0 +1,12 @@
+.botao__flutuante {
+    position: fixed;
+    bottom: 60px;
+    right: 20px;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    font-size: 28px;
+    background-color: var(--azul);
+    color: var(--branco);
+    border: none;
+}
