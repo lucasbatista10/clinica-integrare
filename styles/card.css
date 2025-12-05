@@ -3,13 +3,15 @@
 }
 .agenda__titulo{
     font-weight: 700;
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--preto);
     padding: 1em 0 1em 1em;
 }
 .consultas-card{
     background-color: var(--branco);
-    margin: 0 1.7em 1.2em 1.7em;
+    margin: 0 auto 1.2em auto;
+    width: 100%;
+    max-width: 350px;
     border-radius: 10px;
 }
 .consultas-card__foto{
@@ -96,6 +98,7 @@
     font-weight: 500;
     background-color: var(--azul);
     padding: 1em;
-    width: 296px;
+    width: 100%;
+    max-width: 350px;
     border-radius: 10px;
 }

@@ -9,8 +9,8 @@
 }
 .rodape-container{
     display: flex;
-    gap: 3em;
     align-items: center;
+    justify-content: space-around;
 }
 .rodape-container-item{
     display: flex;
